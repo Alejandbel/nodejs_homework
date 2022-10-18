@@ -26,5 +26,8 @@
     "typescript": "^4.8.4"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.1"
+  }
 }
