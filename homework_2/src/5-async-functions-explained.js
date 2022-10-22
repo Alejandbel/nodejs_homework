@@ -1,10 +1,5 @@
-// TASK: Попробуйте изменять переменные и понаблюдать, что получится.
-
 const secure = false;
 const sendSuccessfully = true;
-
-// При значение этих переменных = true, промис выполнится успешно
-// Если хотя бы одно из значений = false, промис завалится на одной из стадий выполнения
 
 const createConnection = () => {
   console.log('Opening connection...');
