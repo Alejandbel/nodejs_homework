@@ -1,19 +1,14 @@
 {
-  "name": "2__asynchrony",
+  "name": "homework_2",
   "version": "1.0.0",
-  "description": "Node.js asynchrony examples",
+  "description": "Node.js asynchrony homework",
   "engines": {
     "node": ">=18.0.0"
   },
   "scripts": {
     "lint": "eslint --ext .js .",
     "lint:fix": "eslint --ext .js --fix .",
-    "clear": "rm -rf data/*"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^8.20.0",
     "eslint-config-airbnb-base": "^15.0.0",
