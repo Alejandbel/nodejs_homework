@@ -11,7 +11,6 @@ const list: string[] = program.opts().list;
 
 const numbers: number[] = list.map((value) => {
   const parsed = Number(value);
-  console.log(parsed);
 
   if (!Number.isInteger(parsed)) {
     console.log('List should contains only numbers');
