@@ -20,4 +20,9 @@ const numbers: number[] = list.map((value) => {
   return parsed;
 });
 
-console.log(`Integer that appears odd number of times: ${findOdd(numbers)}`);
+try {
+  console.log(`Integer that appears odd number of times: ${findOdd(numbers)}`);
+} catch (error) {
+  console.log(error);
+}
+
